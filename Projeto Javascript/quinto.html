@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {font: 12pt Arial;}
+        button {font-size: 12pt; padding: 30px;}
+    </style>
+</head>
+<body>
+        <h1>numero</h1>
+        <button onclick="calcular()">calcule</button>
+        <selection id="res">
+        </selection>
+        <script>
+            function calcular() {
+                let n1 = number(window.prompt("digite um numero"))
+            let res = document.querySelector(`selection#res`)
+        res.innerHTML = `<p> o dobre de ${n1} é ${n1*2} e a metade é ${n1/2}! </p>`}
+        </script>
+</body>
+</html>                                         
